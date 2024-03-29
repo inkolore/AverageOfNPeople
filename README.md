@@ -12,3 +12,4 @@ $$y = f^{-1} \left( \dfrac{1}{|\omega|} \sum_{j=1}^N \omega_j f(x_j) \right), $$
 where $|\omega|$ is the sum of the weights.
 
 This type of function satisfies the main property of an average, being that it is between the minimum and the maximum of the $x_i$ points.
+The proof is very simple because the f-mean essentially behaves like a regular arithmetic mean for all the operations required.
