@@ -13,3 +13,6 @@ where $|\omega|$ is the sum of the weights.
 
 This type of function satisfies the main property of an average, being that it is between the minimum and the maximum of the $x_i$ points.
 The proof is very simple because the f-mean essentially behaves like a regular arithmetic mean for all the operations required.
+
+# Edit
+I'm pretty sure you can generalize the system to have a different function $f_i$ for each row, as well as a different set of weights. The problem is no longer symetric (it never was with the introduction of weights) but it doesn't matter because we can still assume that $x_n \geq \cdots \geq x_0$ anyway (or take a permutation of the i indices such that we solve the problem in that order).
